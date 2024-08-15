@@ -1,0 +1,32 @@
+{
+    "name": "luongtran/infusionsoft",
+    "description": "Beta PHP SDK for the Infusionsoft",
+    "keywords": [
+        "infusionsoft",
+        "sdk"
+    ],
+    "homepage": "https://developer.infusionsoft.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Infusionsoft",
+            "homepage": "https://developer.infusionsoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "egeloen/http-adapter": "~0.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4",
+        "squizlabs/php_codesniffer": "1.*",
+        "codeception/aspect-mock": "0.5.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Infusionsoft": ["src", "tests"]
+        }
+    }
+}
